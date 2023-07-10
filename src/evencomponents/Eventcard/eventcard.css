@@ -1,0 +1,153 @@
+:root
+{
+    --lb:#3A5Ab4;
+    --db:#00144A;
+    --green:#03C988;
+    --white:#FFFFFF;
+}
+.Cardsdiv
+{
+    display: flex;
+    justify-content: center;
+}
+.eventpagecard
+{
+    margin-top: 50%;
+    position: absolute;
+    height: 500px;
+    width: 80%;
+    border-radius:5px;
+    background-color:var(--db);
+}
+.linediv
+{
+    margin-top:4%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardvl
+{
+    height:400px;
+    width:2px;
+    background-color: #FFFFFF;
+}
+.eventpagecardimg
+{
+    margin-top: 1.75%;
+    position: absolute;
+    width:40%;
+    margin-left: 55%;
+    border-radius:2px;
+}
+
+.eventpagecard2
+{
+    margin-top: 95%;
+    position: absolute;
+    height: 500px;
+    width: 80%;
+    border-radius:5px;
+    background-color:var(--db);
+}
+
+.Eventcardpara
+{
+    color:white;
+    font-family:'helvetica','sans-serif';
+    text-align: justify;
+}
+.cardparagraph
+{
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 8%;
+   width:40%;
+}
+.headdiv
+{
+    position:absolute;
+    color:white;
+    font-family:'montserrat','sans-serif';
+    margin-left:5%;
+    margin-top:2%;
+}
+
+@media (max-width: 768px)
+{
+    .linediv
+    {
+        margin-top: 107%;
+    } 
+    .cardvl
+    {
+        width:80%;
+        height:1px;
+    }
+.imgflex
+{
+    position:absolute;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+}
+.eventpagecardimg
+{
+    margin-left: 0%;
+    margin-top: 20%;
+    position: absolute;
+    width:80%;
+    border-radius:2px;
+}
+.eventpagecard
+{
+    margin-top: 30px;
+    position: absolute;
+    height: 800px;
+    width: 80%;
+    border-radius:5px;
+    background-color:var(--db);
+}
+.eventpagecard2
+{
+    margin-top: 880px;
+    position: absolute;
+    height: 800px;
+    width: 80%;
+   
+}
+
+.Eventcardpara
+{
+    color:white;
+    font-family:'helvetica','sans-serif';
+    text-align: justify;
+}
+.cardparagraph
+{
+    position:absolute;
+    margin-left: 10%;
+    margin-top: 112.5%;
+    width:80%;
+    font-size: 13px;
+}
+.headdiv
+{
+
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width:90%;
+    /* margin-left: 0%; */
+}
+.eventcardhead
+{
+    color:white;
+    font-family:'montserrat','sans-serif';
+    margin-top:4%;
+    font-size: 28px;
+}
+ 
+}

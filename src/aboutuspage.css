@@ -1,0 +1,150 @@
+
+:root
+{
+    --lb:#3A5Ab4;
+    --db:#00144A;
+    --green:#03C988;
+    --white:#FFFFFF;
+}
+*
+{
+    margin:0px;
+    
+}
+.aboutuspgbghide
+{
+    margin-top: 60px;
+    background-color:white;
+    position: absolute;
+    width:100%;
+    height:1250px;
+}
+.aboutACM
+{
+    margin-top: 5%;
+    position:absolute;
+    margin-left:20%;
+    color:var(--lb);
+    text-align: justify;
+    margin-right: 30%;
+}
+
+.GEUACMdiv
+{
+    position:absolute ;
+    margin-top: 22%;
+    margin-left: 20%;
+    margin-right: 30%;
+    text-align:justify;
+    color:var(--lb);
+}
+.Acmhead
+{
+    position: absolute;
+    margin-left: 20%;
+    font-family: 'helvetica','sans-serif';
+    color:var(--lb);
+    font-size: 35px;
+    margin-top: 1%;
+}
+.geuacmlogodiv
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: end;
+    margin-top: 11.5%;
+}
+.geuacmlogo{
+    width:25%;
+    margin-right: 2%;
+}
+.graphiceradiv
+{
+    position:absolute;
+    margin-top:40%;
+    margin-left: 20%;
+    margin-right: 30%;
+    color: var(--lb);
+    text-align: justify;
+    font-family: 'helvetica','sans-serif';
+}
+.geulogodiv{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: end;  
+ position: absolute;
+ margin-top: 43%;
+}
+.geulogo
+{
+    width:28%;
+    margin-right: 2%;
+}
+
+.Acmlogocont
+{
+ position:absolute;
+ width:20%;
+ margin-left: 25%;
+ margin-top: 68%;
+}
+
+.infodiv
+{
+    position : absolute;
+    font-family: 'helvetica' ,'sans-serif';
+    color:var(--lb);
+    margin-top: 70%;
+    font-size: 30px;
+    margin-left: 50%;
+    margin-right: 10%;
+}
+.infodiv2
+{
+    position : absolute;
+    font-family: 'helvetica' ,'sans-serif';
+    color:var(--lb);
+    margin-top: 98%;
+    font-size: 30px;
+    margin-left: 50%;
+    margin-right: 10%;
+}
+.geulogocont
+{
+    position: absolute;
+    width:30%;
+    margin-top: 96%;
+    margin-left: 17%;
+}
+.infodiv ul
+{
+    /* list-style: none; */
+    font-size: 20px;
+}
+.infodiv2 ul
+{
+    /* list-style: none; */
+    font-size: 20px;
+}
+.hzline
+{
+    position:absolute;
+    margin-left:20%;
+    width:70%;
+    height:10px;
+    background-image:linear-gradient(to right,var(--lb), var(--green));
+    margin-top: 88%;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px)
+{
+    .aboutuspgbghide
+{
+    margin-top: 44px;
+   
+}
+}

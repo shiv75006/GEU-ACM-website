@@ -1,0 +1,64 @@
+.upeventcarddiv
+{
+    display: flex;
+    justify-content: center;
+}
+.Upeventcard
+{
+    margin-top: 5%;
+    position: absolute;
+    height: 500px;
+    width: 80%;
+    border-radius:5px;
+    background-color:var(--db);
+}
+.upcomeventhead
+{
+    margin-top: 2%;
+    color:var(--green);
+    margin-left: 5%;
+    font-family: 'montserrat','sans-serif';
+}
+.eventname
+{
+    font-family: 'helvetica' ,'sans-serif';
+    color:white;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.infopara
+{
+    font-family: 'helvetica' ,'sans-serif';
+    color:white;
+    margin-left: 5%;
+    margin-top: 15%;
+} 
+
+.infopara a
+{
+    color:var(--green);
+    cursor: pointer;
+}
+.upeventcardimg
+{
+    margin-top: 1.75%;
+    position: absolute;
+    width:40%;
+    margin-left: 55%;
+    border-radius:2px;
+}
+
+.uplinediv
+{
+    position: absolute;
+    margin-top:4%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+.upcardvl
+{
+    height:400px;
+    width:2px;
+    background-color: #FFFFFF;
+}

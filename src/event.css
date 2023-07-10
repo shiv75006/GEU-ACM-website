@@ -1,0 +1,33 @@
+
+:root
+{
+    --lb:#3A5Ab4;
+    --db:#00144A;
+    --green:#03C988;
+    --white:#FFFFFF;
+}
+*
+{
+    margin:0px;
+    
+}
+.bghide
+{
+    margin-top: 60px;
+    background-color:white;
+    position: absolute;
+    width:100%;
+    height:1250px;
+}
+
+@media (max-width: 768px)
+{
+    .bghide
+{
+    margin-top: 44px;
+   
+}
+}
+
+
+

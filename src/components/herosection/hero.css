@@ -1,0 +1,48 @@
+:root
+{
+    --lb:#3A5Ab4;
+    --db:#00144A;
+    --green:#03C988;
+}
+body{
+    background-image: url(./geupic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:53px ;
+}
+.welcometext
+{
+   margin-top: 23%;
+   font-family:'montserrat','sans-serif';
+}
+.welcometext h1
+{  
+    color:white;
+    font-size: 60px; 
+    margin-left: 3%;
+}
+.welcometext .joinusb
+{
+    background: var(--green);
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+    width:150px;
+    margin-left: 3%;
+    color:white;
+    font-size: 25px;
+}
+
+
+@media (max-width: 767.98px)
+{
+    .welcometext h1
+    {
+        font-size: 20px;
+    }
+    .welcometext .joinusb
+    {
+        font-size: 10px;
+        width:60px;
+    }
+}

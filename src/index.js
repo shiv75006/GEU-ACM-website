@@ -1,17 +1,40 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Event from './Event'
+import AboutUs from './AboutUs'
+// import Contact from './Contact'
+import Alumnus from './Alumnus'
+import {
+    createBrowserRouter,
+    RouterProvider,
+  } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <App/>,
+    },
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    {
+      path: "/event",
+      element: <Event/>,
+    },
+
+    {
+      path: "/aboutus",
+      element: <AboutUs/>,
+    },
+
+    // {
+    //   path: "/contact",
+    //   element: <Contact/>,
+    // },
+
+    {
+      path: "/Alumnus",
+      element: <Alumnus/>,
+    },
+  ]);
+//this app component will be rendered inside a div named as root
+ReactDOM.render(<RouterProvider router={router}></RouterProvider>, document.getElementById('root'));
