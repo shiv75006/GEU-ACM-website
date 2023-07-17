@@ -6,145 +6,178 @@
     --green:#03C988;
     --white:#FFFFFF;
 }
-*
-{
-    margin:0px;
-    
-}
-.aboutuspgbghide
-{
-    margin-top: 60px;
-    background-color:white;
-    position: absolute;
-    width:100%;
-    height:1250px;
-}
-.aboutACM
-{
-    margin-top: 5%;
-    position:absolute;
-    margin-left:20%;
-    color:var(--lb);
-    text-align: justify;
-    margin-right: 30%;
-}
-
-.GEUACMdiv
-{
-    position:absolute ;
-    margin-top: 22%;
-    margin-left: 20%;
-    margin-right: 30%;
-    text-align:justify;
-    color:var(--lb);
-}
 .Acmhead
 {
-    position: absolute;
-    margin-left: 20%;
-    font-family: 'helvetica','sans-serif';
-    color:var(--lb);
-    font-size: 35px;
-    margin-top: 1%;
+    margin-top: 20px;
+    margin-left: 10%;
+    font-family: 'helvetica';
+    color: #3A5Ab4;
 }
+.aboutACMparagraph
+{
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'helvetica';
+    color:#3A5Ab4;
+}
+.aboutgeuacm
+{
+    margin-top: 25px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 30%;
+    font-family: 'helvetica';
+    color:#3A5Ab4;
+}
+
 .geuacmlogodiv
 {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width:100%;
-    justify-content: end;
-    margin-top: 11.5%;
+  margin-top: -1%;
 }
-.geuacmlogo{
-    width:25%;
-    margin-right: 2%;
-}
-.graphiceradiv
+.geuacmlogo
 {
-    position:absolute;
-    margin-top:40%;
-    margin-left: 20%;
-    margin-right: 30%;
-    color: var(--lb);
+    width:20%;
+    margin-left: 75%;
+    margin-top: -50%;
+}
+
+.graphicerapara
+{
+    margin-top: 10px;
     text-align: justify;
-    font-family: 'helvetica','sans-serif';
+    margin-left: 10%;
+    margin-right: 30%;
+    font-family: 'helvetica';
+    color:#3A5Ab4;
+
 }
-.geulogodiv{
-    display: flex;
-    flex-direction: row;
-    width:100%;
-    justify-content: end;  
- position: absolute;
- margin-top: 43%;
+
+.graphiceradiv h1
+{
+    color:#3A5Ab4;
+    margin-left:10%;
+    margin-top: 60px;
+    font-family: 'helvetica';
 }
+
 .geulogo
 {
-    width:28%;
-    margin-right: 2%;
+    width:30%;
+    margin-top: -12%;
+    margin-left: 70%;
 }
 
 .Acmlogocont
 {
- position:absolute;
- width:20%;
- margin-left: 25%;
- margin-top: 68%;
+    width:25%;
+    margin-left:20%;
+    margin-top: 5%;
 }
 
 .infodiv
 {
-    position : absolute;
-    font-family: 'helvetica' ,'sans-serif';
-    color:var(--lb);
-    margin-top: 70%;
-    font-size: 30px;
+    margin-top: -10%;
     margin-left: 50%;
-    margin-right: 10%;
-}
-.infodiv2
-{
-    position : absolute;
-    font-family: 'helvetica' ,'sans-serif';
-    color:var(--lb);
-    margin-top: 98%;
-    font-size: 30px;
-    margin-left: 50%;
-    margin-right: 10%;
-}
-.geulogocont
-{
-    position: absolute;
-    width:30%;
-    margin-top: 96%;
-    margin-left: 17%;
-}
-.infodiv ul
-{
-    /* list-style: none; */
-    font-size: 20px;
-}
-.infodiv2 ul
-{
-    /* list-style: none; */
-    font-size: 20px;
+    color:#3A5Ab4;
 }
 .hzline
 {
-    position:absolute;
-    margin-left:20%;
-    width:70%;
-    height:10px;
-    background-image:linear-gradient(to right,var(--lb), var(--green));
-    margin-top: 88%;
-    border-radius: 50%;
+    background-image: linear-gradient(var(--green),var(--lb));
+    height:5px;
+    width:100%;
+    margin-top: 10%;
 }
 
-@media (max-width: 768px)
+.geulogocont
 {
-    .aboutuspgbghide
+    width:30%;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+.infodiv2
 {
-    margin-top: 44px;
+    color:#3A5Ab4;
+    margin-top: -9%;
+    margin-left: 50%;
+}
+
+@media screen and (max-width:768px)
+{
+    .Acmhead
+{
+    text-align: center;
+    margin: 0px;
+}
+
+.aboutgeuacm
+{
    
+    margin-right: 10%;
+  
+}
+
+.geuacmlogo
+{
+    width:0%;
+
+}
+
+.graphicerapara
+{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.graphiceradiv h1
+{
+    text-align: center;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.geulogo
+{
+    width:0%;
+  
+}
+
+.Acmlogocont
+{
+    width:30%;
+    margin-left:34%;
+    margin-top: 10%;
+}
+
+.infodiv
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:#3A5Ab4;
+}
+.hzline
+{
+    background-image: linear-gradient(var(--green),var(--lb));
+    height:5px;
+    width:100%;
+    margin-top: 10%;
+}
+
+.geulogocont
+{
+    width:50%;
+    margin-left:24%;
+    margin-top: 10%;
+}
+.infodiv2
+{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:#3A5Ab4;
 }
 }

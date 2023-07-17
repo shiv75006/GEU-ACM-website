@@ -1,64 +1,104 @@
-.upeventcarddiv
+:root
+{
+    --lb:#3A5Ab4;
+    --db:#00144A;
+    --green:#03C988;
+    --white:#FFFFFF;
+}
+.upcarddiv
 {
     display: flex;
     justify-content: center;
 }
-.Upeventcard
+.upeventcard
 {
-    margin-top: 5%;
-    position: absolute;
-    height: 500px;
-    width: 80%;
+    margin-top: 50px;
+    background-color: #00144A;
+    width:75%;
+    height:500px;
+    border-radius:20px;
+}
+.upcardimg
+{
+    width:43%;
+    margin-left:55%;
+    margin-top:2%;
     border-radius:5px;
-    background-color:var(--db);
 }
-.upcomeventhead
+.eventcardtext
 {
-    margin-top: 2%;
-    color:var(--green);
-    margin-left: 5%;
-    font-family: 'montserrat','sans-serif';
-}
-.eventname
-{
-    font-family: 'helvetica' ,'sans-serif';
-    color:white;
-    margin-left: 5%;
-    margin-top: 2%;
-}
-.infopara
-{
-    font-family: 'helvetica' ,'sans-serif';
-    color:white;
-    margin-left: 5%;
-    margin-top: 15%;
-} 
-
-.infopara a
-{
-    color:var(--green);
-    cursor: pointer;
-}
-.upeventcardimg
-{
-    margin-top: 1.75%;
-    position: absolute;
-    width:40%;
-    margin-left: 55%;
-    border-radius:2px;
+    margin-top: -44%;
+    color:#03C988;
+    margin-left:20px;
+    font-size: 50px;
+    font-family: 'montserrat';
 }
 
-.uplinediv
+.eventcardtext1
 {
-    position: absolute;
-    margin-top:4%;
-    display: flex;
-    justify-content: center;
-    margin-left: 50%;
+    margin-top: 50px;
+    margin-left:20px;
+    color:white;
+    font-size: 45px;
+    font-family: 'montserrat';
 }
-.upcardvl
+
+.eventcardtext2
 {
-    height:400px;
-    width:2px;
-    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-left:20px;
+    color:white;
+    font-family: 'helvetica';
+}
+
+.eventcardtext2 a
+{
+    color: #03C988;
+}
+
+@media screen and (max-width: 768px)
+{
+    .upeventcard
+{
+    height:750px;  
+}
+.upcardimg
+{
+    width:70%;
+    margin-left:15%;
+    margin-top:15%;
+}
+.eventcardtext
+{
+    margin-top: 10%;
+    text-align: center;
+    color:#03C988;
+    font-size: 45px;
+    margin-left: 0px;
+    font-family: 'montserrat';
+}
+
+.eventcardtext1
+{
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-left:20px;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.eventcardtext2
+{
+    font-size: 12px;
+    margin-top: 100px;
+    margin-left:30px;
+    color:white;
+}
+
+.eventcardtext2 a
+{
+    color: #03C988;
+}
+
 }

@@ -1,0 +1,105 @@
+:root
+{
+    --lb:#3A5Ab4;
+    --db:#00144A;
+    --green:#03C988;
+}
+
+.loginformdiv
+{
+    background-color: var(--lb);
+   color:white;
+   width:65%;
+   margin-top: 45px;
+   height:550px;
+   border-radius: 10px;
+}
+.parentdiv
+{
+    display: flex;
+    justify-content: center;
+}
+.register
+{
+    margin-top:20px;
+    margin-left: 46%;
+    font-family: "montserrat";
+}
+.usernameinput, .portfolioinput, .Emailinput, .stidinput, .phinput
+{
+    border:none;
+    height:25px;
+    border-radius: 5px;
+    width:350px;
+    background-color: var(--db);
+    margin-left:60px;
+    margin-top: 2px;
+}
+
+.usernameinput, .portfolioinput, .Emailinput, .stidinput, .phinput, :active
+{
+    color:white;
+}
+.name, .email, .portfolio, .phn, .stid
+{
+    font-family: "montserrat";
+    margin-left: 62px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.instructions
+{
+    margin-top: -350px;
+    margin-left: 55%;
+    color:white;
+    font-family: "helvetica";
+}
+.inst
+{
+    font-size: 15px;
+    color: #03C988;
+}
+.submitbl
+{
+    margin-left: 35%;
+    margin-top:20px;
+    border:none;
+    border-radius: 12px;
+    padding:5px 15px 5px 15px;
+    background-color: #00144A;
+    color:white;
+    font-family: 'montserrat';
+}
+
+@media screen and (max-width: 768px)
+{
+    .loginformdiv
+    {
+       background-color: var(--lb);
+       color:white;
+       width:65%;
+       margin-top: 45px;
+       height:650px;
+       border-radius: 10px;
+    }
+    .register
+    {
+        margin-left:36%;
+    }   
+    .usernameinput, .portfolioinput, .Emailinput, .stidinput, .phinput
+    {
+        width:80%;
+        margin-left:10%;
+    } 
+    .name, .email, .portfolio, .phn, .stid
+    {
+        text-align: center;
+        margin-left: 0%;
+    }
+    .instructions
+    {
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: 15px;
+    }
+}

@@ -5,149 +5,75 @@
     --green:#03C988;
     --white:#FFFFFF;
 }
-.Cardsdiv
+.cardcontainer
 {
     display: flex;
     justify-content: center;
 }
-.eventpagecard
+.eventcard
 {
-    margin-top: 50%;
-    position: absolute;
-    height: 500px;
-    width: 80%;
-    border-radius:5px;
-    background-color:var(--db);
-}
-.linediv
-{
-    margin-top:4%;
-    display: flex;
-    justify-content: center;
-}
-
-.cardvl
-{
-    height:400px;
-    width:2px;
-    background-color: #FFFFFF;
-}
-.eventpagecardimg
-{
-    margin-top: 1.75%;
-    position: absolute;
-    width:40%;
-    margin-left: 55%;
-    border-radius:2px;
-}
-
-.eventpagecard2
-{
-    margin-top: 95%;
-    position: absolute;
-    height: 500px;
-    width: 80%;
-    border-radius:5px;
-    background-color:var(--db);
-}
-
-.Eventcardpara
-{
+    margin-top: 50px;
+    background-color: #00144A;
+    width:75%;
+    height:500px;
+    border-radius:20px;
     color:white;
-    font-family:'helvetica','sans-serif';
-    text-align: justify;
+}
+.eventcardimg
+{
+    width:43%;
+    margin-left:55%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.cardheading
+{
+    margin-top: -42%;
+    margin-left: 40px;
+    font-size: 45px;
+    font-family: "montserrat";
 }
 .cardparagraph
 {
-    position:absolute;
-    margin-left: 5%;
-    margin-top: 8%;
-   width:40%;
-}
-.headdiv
-{
-    position:absolute;
-    color:white;
-    font-family:'montserrat','sans-serif';
-    margin-left:5%;
-    margin-top:2%;
+    margin-left:40px;
+    margin-top: 30px;
+    text-align: justify;
+    margin-right:57%;
+    font-family: "helvetica";
 }
 
-@media (max-width: 768px)
+@media screen and (max-width:768px)
 {
-    .linediv
-    {
-        margin-top: 107%;
-    } 
-    .cardvl
-    {
-        width:80%;
-        height:1px;
-    }
-.imgflex
+
+.eventcard
 {
-    position:absolute;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    margin-left: 0%;
-}
-.eventpagecardimg
-{
-    margin-left: 0%;
-    margin-top: 20%;
-    position: absolute;
-    width:80%;
-    border-radius:2px;
-}
-.eventpagecard
-{
-    margin-top: 30px;
-    position: absolute;
-    height: 800px;
-    width: 80%;
-    border-radius:5px;
-    background-color:var(--db);
-}
-.eventpagecard2
-{
-    margin-top: 880px;
-    position: absolute;
-    height: 800px;
-    width: 80%;
+    width:75%;
+    height:750px;
    
 }
-
-.Eventcardpara
+.eventcardimg
 {
-    color:white;
-    font-family:'helvetica','sans-serif';
-    text-align: justify;
+    width: 70%;
+    margin-left:15%;
+    margin-top:15%;
+}
+
+.cardheading
+{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 0px;
+    font-family: "montserrat";
 }
 .cardparagraph
 {
-    position:absolute;
-    margin-left: 10%;
-    margin-top: 112.5%;
-    width:80%;
-    font-size: 13px;
+    margin-left:40px;
+    margin-top: 30px;
+    text-align: justify;
+    margin-right:40px;
+    font-family: "helvetica";
+    font-size: 12px;
 }
-.headdiv
-{
-
-    position:absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width:90%;
-    /* margin-left: 0%; */
-}
-.eventcardhead
-{
-    color:white;
-    font-family:'montserrat','sans-serif';
-    margin-top:4%;
-    font-size: 28px;
-}
- 
 }

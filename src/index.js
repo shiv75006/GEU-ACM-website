@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Event from './Event'
 import AboutUs from './AboutUs'
-// import Contact from './Contact'
-import Alumnus from './Alumnus'
+import Login from './components/Loginform/Login'
+
+import Review from './components/Reviewform/Review'
 import {
     createBrowserRouter,
     RouterProvider,
@@ -26,14 +27,16 @@ import {
       element: <AboutUs/>,
     },
 
-    // {
-    //   path: "/contact",
-    //   element: <Contact/>,
-    // },
+    {
+      path: "/Login",
+      element: <Login/>,
+    },
+
+   
 
     {
-      path: "/Alumnus",
-      element: <Alumnus/>,
+      path: "/Review",
+      element: <Review/>,
     },
   ]);
 //this app component will be rendered inside a div named as root

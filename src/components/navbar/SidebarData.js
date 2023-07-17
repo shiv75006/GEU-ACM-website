@@ -22,10 +22,16 @@ export const SidebarData = [
     icon: <FaIcons.FaPhone />,
     cName: 'nav-text'
   },
+  // {
+  //   title: 'Alumni',
+  //   path: '/Alumnus',
+  //   icon: <IoIcons.IoMdPeople />,
+  //   cName: 'nav-text'
+  // },
   {
-    title: 'Alumni',
-    path: '/Alumnus',
-    icon: <IoIcons.IoMdPeople />,
+    title: 'Review',
+    path: '/Review',
+    icon: <IoIcons.IoMdPeople/>,
     cName: 'nav-text'
   },
   

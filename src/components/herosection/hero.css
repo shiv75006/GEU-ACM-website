@@ -4,45 +4,54 @@
     --db:#00144A;
     --green:#03C988;
 }
-body{
+ /* background-image: url(./geupic.png); */
+.background
+{
     background-image: url(./geupic.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position-y:53px ;
+    background-size: cover;
+    width:100%;
+    height:600px;
+    background-position-y: -5px;
 }
+
 .welcometext
 {
-   margin-top: 23%;
-   font-family:'montserrat','sans-serif';
-}
-.welcometext h1
-{  
-    color:white;
-    font-size: 60px; 
-    margin-left: 3%;
-}
-.welcometext .joinusb
-{
-    background: var(--green);
-    border: none;
-    border-radius: 2px;
-    padding: 2px;
-    width:150px;
-    margin-left: 3%;
-    color:white;
+    margin-left: 30px;
     font-size: 25px;
+    padding:350px 0px 0px 0px;
+    color:white;
+    font-family: 'montserrat','sans-serif';   
+}
+.joinusb
+{
+   
+    background-color: #03C988;
+    border: none;
+    width:100px;
+    border-radius:20px;
+    font-size: 15px;
+    padding:5px;
+    color: white;
 }
 
 
-@media (max-width: 767.98px)
+@media screen and (max-width: 768px)
 {
-    .welcometext h1
+    .background
     {
-        font-size: 20px;
+        height:300px;
     }
-    .welcometext .joinusb
+    .welcometext
+    {
+        font-size: 15px;
+        padding:150px 0px 0px 0px;
+     
+    }
+    .joinusb
     {
         font-size: 10px;
-        width:60px;
+        padding:2px;
+        width:70px;
     }
 }

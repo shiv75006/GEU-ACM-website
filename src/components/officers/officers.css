@@ -1,8 +1,6 @@
 .officersdiv
 {
     width:100%;
-    position:absolute;
-    margin-top:1493px;
     display:flex;
     justify-content: center;
     font-family: 'montserrat','sans-serif';
@@ -13,12 +11,22 @@
     background-color: var(--db);
     width:100%;
     height: 500px;
-    position:absolute;
-    margin-top:100px;
+   
 }
+.officersHead
+{
+  margin-top: 420px;
+  display: flex;
+  justify-content: center;
+  font-family: "montserrat";
+  color:white;
+  background-color: var(--lb);
 
-
-
+}
+.officersHead h1
+{
+  margin-top: 30px;
+}
 
 ::-webkit-scrollbar {
     height: 8px;
@@ -42,7 +50,6 @@
     max-width: 100%;
     width: 100%;
     background:var(--lb);
-    border-radius: 12px;
     padding: 30px;
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
@@ -120,88 +127,62 @@
 {
   /* position: absolute; */
   color:white;
-  margin-top: 12.5%;
+  margin-top: 5%;
   font-size: 23px;
 }
 
 
 
 
-@media (max-width: 576px) { 
-
-}
-
-
-@media (max-width: 768px) { 
-
-    .officersdiv
-    {
-        width:100%;
-        position:absolute;
-        margin-top:1800px;
-        display:flex;
-        justify-content: center;
-        font-family: 'montserrat','sans-serif';
-       color:var(--db);
-    }
-    .officerscarousel
-    {
-        background-color: var(--db);
-        width:100%;
-        height: 370px;
-        position:absolute;
-        margin-top:50px;
-    }
-    .container {
-       
-        gap: 6px;
-        border-radius: 6px;
-        padding: 10px;
-        
-      }
-
-      .container .card {
-        display: flex;
-        flex: 0 0 50%;
-        height: 350px;
-        margin-left: 2%;
-        padding: 40px;
-        border-radius: 2px;
-      }
-      .card .image {
-        margin-top: 0px;
-        height:50px;
-        width: 140px;
-       padding: 0px;
-      border-radius: 50%;
-    }
-    .image img {
-        height: 180px;
-        width: 140px;
-        object-fit: cover;
-        border-radius: 2%;
-        /* border: 5px solid  var(--green); */
-      }
-
-      .card h2 {
-        text-align: center;
-        margin-top: 100%;
-        color:#f5f5f5;
-        font-size: 15px;
-        font-weight: 600;
-      }
-      .card p {
-        margin-top: 5%;
-        font-size: 10px;
-        font-weight: 400;
-        color:#f5f5f5;
-        text-align: center;
-      }
-
-.socialmediaoff
+@media screen and (max-width: 768px)
 {
-  margin-top: 5%;
-  width:141px;
+  .officersdiv
+  {
+    margin-top: 0%;
+  }
+  .officersHead
+  {
+    margin-top: 180%;
+    font-size: 10px;
+  }
+  .container .card {
+   
+    height: 350px;
+    width:100px;
+  }
+  .image img 
+  {
+    margin-left: 25px;
+    margin-top: -20px;
+    width:170px;
+    height:250px;
+  }
+
+  .card h4
+  {
+
+    color:white;
+    margin-top: 15%;
+    font-size: 10px;
+    text-align: center;
+  }
+  .card h2 {
+    text-align: center;
+    margin-top: 70%;
+    color:#f5f5f5;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .card p {
+    margin-top: 10%;
+    font-size: 15px;
+    color:#f5f5f5;
+    text-align: center;
+  }
+  .socialmediaoff
+{
+  margin-top: 10%;
+  width:161px;
   height:25px;
   background-color: white;
   display:flex;
@@ -209,35 +190,5 @@
   justify-content: center;
   border-radius: 5px;
 }
-.scmofficon
-{
-  width:10%;
-  margin: 2px;
 }
-.scmvloff
-{
-  background-color: var(--db);
-  height:15px;
-  width:1px;
-  margin-top:2px ;
-  border-radius: 50px;
-}
-.card h4
-{
-  /* position: absolute; */
-  color:white;
-  margin-top: 12.5%;
-  font-size: 10px;
-}
-  
- }
 
-@media (max-width: 992px) { 
-   
-      
- }
-
-@media (max-width: 1200px) {  }
-
-
-@media (max-width: 1400px) {  }

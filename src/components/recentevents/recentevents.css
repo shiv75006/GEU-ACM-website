@@ -1,163 +1,117 @@
-:root
-{
-    --lb:#3A5Ab4;
-    --db:#00144A;
-    --green:#03C988;
+:root {
+  --lb: #3a5ab4;
+  --db: #00144a;
+  --green: #03c988;
 }
-.recenteventdiv
-{
+.recenteventdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-family: "montserrat";
+  color: white;
+  background-color: #3a5ab4;
+}
 
+.cards_event {
+  background-color: #3a5ab4;
+  display: flex;
+  justify-content: space-evenly;
+}
+.receventcard,
+.receventcard2 {
+  width: 550px;
+  height: 300px;
+  background-color: #00144a;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+}
+
+.reccardhead {
+  font-family: "montserrat";
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 35px;
+}
+.receventparagraph {
+  font-family: "helvetica";
+  margin-left: 20px;
+  margin-right: 310px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.card1post {
+  width: 40%;
+  margin-left: 57%;
+  margin-top: -34%;
+  border-radius: 5px;
+}
+.card2post {
+  width: 40%;
+  margin-left: 57%;
+  margin-top: -37%;
+  border-radius: 5px;
+}
+.speakername {
+  margin-top: 10px;
+}
+.recenthead {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .recenteventdiv {
+    margin-top: 80px;
+  }
+
+  .cards_event {
+    background-color: #3a5ab4;
     display: flex;
-    justify-content: center;
-    margin-top: 483px;
-    position:absolute;
-    width:100%;
-    height:500px;
-    background-color: var(--lb);
-}
-.recenthead
-{
-    margin-top: 20px;
-    font-size: 35px;
-    color :white;
-    font-family: 'montserrat','sans-serif';
-   
-}
-.eventcard
-{
-    margin-left: 8%;
-    position:absolute;
-    height:300px;
-    width:550px;
-    border-radius: 5px;
-    background-color:var(--db);
-    margin-top: 590px;
-}
-.eventcard2
-{
-    margin-right: 8%;
-    margin-left: 54%;
-    position:absolute;
-    height:300px;
-    width:550px;
-    border-radius: 5px;
-    background-color:var(--db);
-    margin-top: 590px; 
-}
-.cardhead
-{
-    color: white;
-    font-family: 'montserrat','sans-serif';
-    margin-top: 10px;
-    margin-left: 12%;
-    font-size: 35px;
-}
-.card1post
-{
-    width:40%;
-    margin-left: 57%;
-}
-.eventparagraph
-{
-    position: absolute;
-    color:white;
-    margin-left: 10%;
-    margin-right: 50%;
-    margin-top: 2%;
-    text-align: justify;
-}
-.eventvl
-{
-    background-image: linear-gradient(var(--db),var(--green));
-    width:2px;
-    height:300px;
-   
+    align-items: center;
+    flex-direction: column;
+  }
+  .receventcard,
+  .receventcard2 {
+    width: 250px;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
 
-}
-.vllinediv
-{
-    position :absolute;
-    margin-top:590px;
-    display: flex;
-    width:100%;
-    justify-content: center;
-}
-
-
-/* responsive */
-
-
-
-
-@media (max-width: 600px) { 
-
-    .recenteventdiv
-    {
-    
-        display: flex;
-        justify-content: center;
-        margin-top: 313px;
-        position:absolute;
-        width:100%;
-        height:610px;
-        background-color: var(--lb);
-    }
-
-    .recenthead
-{
+  .reccardhead {
+    font-family: "montserrat";
     margin-top: 20px;
     font-size: 25px;
-    color :white;
-    font-family: 'montserrat','sans-serif';
-   
+    text-align: center;
+  }
+  .receventparagraph {
+    font-family: "helvetica";
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .card1post {
+    width: 70%;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 10%;
+    border: solid white;
+  }
+  .card2post {
+    width: 70%;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 10%;
+    border: solid white;
+  }
+  .speakername {
+    margin-top: 10px;
+  }
+  .recenthead {
+    margin-top: 30px;
+    font-size: 30px;
+  }
 }
-.cards_event
-{
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.eventcard
-{
-    margin-left: 0px;
-    position:absolute;
-    height:210px;
-    width:375px;
-    margin-top: 390px;
-}
-.eventcard2
-{
-    margin-left: 31px;
-    position:absolute;
-    height:210px;
-    width:375px;
-    margin-top: 650px; 
-}
-.cardhead
-{   margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-}
-.eventparagraph{
-    font-size: 10px;
-}
-.speakername
-{
-    font-size: 15px;
-}
-.vl
-{
-    visibility: hidden;
-}
-.card1post
-{
-    width:41%;
-}
- }
-
- @media (min-width:768px) and (max-width:800px)
- {
-
- }

@@ -1,0 +1,76 @@
+.reviewform
+{
+    width:45%;
+    background-color: var(--db);
+    color:white;
+    border-radius:20px;
+}
+.parentdiv2
+{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    height:550px;
+}
+.reviewformhead
+{
+    font-family:'montserrat','sans-serif';
+    margin-left: 45%;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.reviewname, .reviewmail, .review
+{
+    margin-top:20px;
+    margin-left:21%;
+    font-size: 15px;
+    font-family:'montserrat','sans-serif';
+}
+.nameinputr, .emailinputr
+{
+    width:60%;
+    margin-left: 20%;
+    border-radius:5px;
+    border:none;
+    height:25px;
+    margin-top:5px;
+}
+
+.reviewinputr
+{
+    width:60%;
+    margin-left: 20%;
+    border-radius:5px;
+    border:none;
+    height:250px;
+    margin-top:5px;
+    size:250;
+}
+.submit
+{
+    border:none;
+    background-color: var(--lb);
+    color:white;
+    padding:5px 10px;
+    border-radius:15px;
+    margin-left: 45%;
+    margin-top:20px;
+    font-family: 'montserrat';
+}
+
+@media screen and (max-width: 768px)
+{
+    .reviewform
+    {
+        width:65%;
+    }
+    .reviewformhead
+    {
+        margin-left: 39%;
+        font-size: 20px;
+    }
+    .submit
+    {
+        margin-left: 40%;
+    }
+}
