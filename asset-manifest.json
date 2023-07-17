@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/miniproject%203/static/css/main.64bc4a7a.css",
+    "main.js": "/miniproject%203/static/js/main.7e196c50.js",
+    "static/media/ShivamGupta.jpg": "/miniproject%203/static/media/ShivamGupta.8bf3c23c608ce7dbe98b.jpg",
+    "static/media/shivang.png": "/miniproject%203/static/media/shivang.0162376eda6c7e602ab9.png",
+    "static/media/instapostcbs.png": "/miniproject%203/static/media/instapostcbs.c5a3e77e7016d579579a.png",
+    "static/media/arnav.png": "/miniproject%203/static/media/arnav.0aacce4e9175b641d3a5.png",
+    "static/media/sarishmamaam.png": "/miniproject%203/static/media/sarishmamaam.e132a291fee2fe934c36.png",
+    "static/media/shivyanshu.png": "/miniproject%203/static/media/shivyanshu.bd2f41884406329b52fe.png",
+    "static/media/adwpost.jpg": "/miniproject%203/static/media/adwpost.7a08de072861046ae35b.jpg",
+    "static/media/amaan.png": "/miniproject%203/static/media/amaan.f6320805a6f79b0aefe0.png",
+    "static/media/geulogo.png": "/miniproject%203/static/media/geulogo.b92f89d923832685011d.png",
+    "static/media/Fpdimg.jpeg": "/miniproject%203/static/media/Fpdimg.6939cb64536f53146847.jpeg",
+    "static/media/geupic.png": "/miniproject%203/static/media/geupic.65b5cfba1c3b88815615.png",
+    "static/media/hodsir.png": "/miniproject%203/static/media/hodsir.6a4a531b2a2daf779c27.png",
+    "static/media/acmlogo.png": "/miniproject%203/static/media/acmlogo.aefea03069493522b2f6.png",
+    "static/media/acmlogoblack.png": "/miniproject%203/static/media/acmlogoblack.d3e88ab0c231e5fc2e7e.png",
+    "static/media/instagram.svg": "/miniproject%203/static/media/instagram.116ad97e1f8e0638fcb7d5aed6800697.svg",
+    "index.html": "/miniproject%203/index.html",
+    "static/media/linkedin-in.svg": "/miniproject%203/static/media/linkedin-in.42f56d2e4ae6f93ca987e172233e3da8.svg",
+    "main.64bc4a7a.css.map": "/miniproject%203/static/css/main.64bc4a7a.css.map",
+    "main.7e196c50.js.map": "/miniproject%203/static/js/main.7e196c50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64bc4a7a.css",
+    "static/js/main.7e196c50.js"
+  ]
+}
